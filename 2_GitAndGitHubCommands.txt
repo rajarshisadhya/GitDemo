@@ -1,0 +1,13 @@
+git config --global user.name "rajarshisadhya"
+git config --global user.email "rajarshisadhya@gmail.com"
+git config --global color.ui auto
+git init
+git remote add origin https://github.com/rajarshisadhya/GitDemo.git
+git pull origin main
+git status
+
+
+git add .
+git status
+git commit -m "Commit Message"
+git push
